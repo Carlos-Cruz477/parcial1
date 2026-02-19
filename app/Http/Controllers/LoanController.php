@@ -24,9 +24,6 @@ class LoanController extends Controller
         
         ->get();
 
-        json_encode($book);
-
-        dd($book);
 
 
         if ($book['disponible'] == 0){
